@@ -35,6 +35,10 @@ rpm-ostree install \
   dunst \
   kitty \
   xdg-desktop-portal-hyprland \
+
+# Hyprland Extras
+rpm-ostree install \
+  hyprpaper \
   nwg-dock-hyprland \
   nwg-look \
   gtk-murrine-engine \
