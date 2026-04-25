@@ -34,4 +34,8 @@ rpm-ostree install \
   wofi \
   dunst \
   kitty \
-  xdg-desktop-portal-hyprland
+  xdg-desktop-portal-hyprland \
+  nwg-dock-hyprland \
+  nwg-look \
+  gtk-murrine-engine \
+  sassc
