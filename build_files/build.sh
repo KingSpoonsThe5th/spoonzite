@@ -22,3 +22,16 @@ dnf5 install -y tmux
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+
+# Enable the Hyprland COPR
+curl -Lo /etc/yum.repos.d/hyprland.repo \
+  https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-$(rpm -E %fedora)/solopasha-hyprland-fedora-$(rpm -E %fedora).repo
+
+# Install Hyprland and essentials
+rpm-ostree install \
+  hyprland \
+  waybar \
+  wofi \
+  dunst \
+  kitty \
+  xdg-desktop-portal-hyprland
